@@ -1,0 +1,11 @@
+include check_notebook
+include LICENSE
+include setup.py
+
+### Exclude
+
+exclude Makefile
+exclude .coveragerc
+exclude *.yml
+exclude .mailmap
+recursive-exclude mne *.pyc
